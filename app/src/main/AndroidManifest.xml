@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="엠생"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name="wala.wala.yang_gichang.emsang.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

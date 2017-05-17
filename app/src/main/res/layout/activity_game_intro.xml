@@ -3,160 +3,162 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+
     android:paddingBottom="0dp"
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:paddingTop="0dp"
-    tools:context="wala.wala.yang_gichang.emsang.GamePlay"
-    android:backgroundTintMode="screen"
-    android:backgroundTint="@color/accent_material_dark">
+    tools:context="wala.wala.yang_gichang.emsang.GamePlay">
 
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="사용 방법"
-        android:id="@+id/textView2"
-        android:textSize="30dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:text="사용 방법"
+        android:textColor="#f8f8f8"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/primary_text_disabled_material_light"
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_margin="12dp">
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_margin="12dp"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical">
 
         <TextView
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3"
             android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="30dp" />
 
         <TextView
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1.맨 아래의 버튼을 눌러 시작(인트로 중)"
-            android:id="@+id/textView4"
-            android:textSize="19dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:editable="false"
+            android:text="1.맨 아래의 버튼을 눌러 시작(인트로 중)"
+            android:textSize="19dp"
             android:textStyle="bold" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/textView6"
-            android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
-            android:layout_weight="1" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView5"
-            android:layout_gravity="center_horizontal"
-            android:textSize="19dp"
-            android:layout_weight="1"
-            android:text="2.(인트로가 끝나면)결정된 게임 수행"
-            android:textStyle="bold"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp" />
-
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView8"
             android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="30dp" />
 
         <TextView
+            android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="3. 걸린 사람은 찬스를 사용할수 있음"
-            android:id="@+id/textView7"
             android:layout_gravity="center_horizontal"
-            android:textSize="19dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
+            android:text="2.(인트로가 끝나면)결정된 게임 수행"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="3. 걸린 사람은 찬스를 사용할수 있음"
+            android:textSize="19dp"
             android:textStyle="normal|bold" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="30dp" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/textView10"
-            android:layout_gravity="center_horizontal"
-            android:textSize="19dp"
-            android:text="4.찬스를 이용하고 싶으면 각 게임 화면 아래의 &apos;옵션&apos; 클릭"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_weight="1"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView11"
-            android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
-            android:layout_weight="1" />
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView12"
             android:layout_gravity="center_horizontal"
-            android:textSize="19dp"
-            android:text="5.다음을 눌러 다음 게임 진행"
-            android:layout_marginRight="5dp"
             android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:layout_weight="1"
+            android:text="4.찬스를 이용하고 싶으면 각 게임 화면 아래의 &apos;옵션&apos; 클릭"
+            android:textSize="19dp"
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView13"
             android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="5.다음을 눌러 다음 게임 진행"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textSize="30dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-
             android:id="@+id/button9"
+            android:layout_width="60dp"
+
+            android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:background="@android:drawable/ic_media_play"
-            android:drawablePadding="@dimen/notification_big_circle_margin"/>
+            android:drawablePadding="@dimen/notification_big_circle_margin" />
 
         <TextView
+            android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView14"
             android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="30dp" />
 
     </LinearLayout>
 </RelativeLayout>
