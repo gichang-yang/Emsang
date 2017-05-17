@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:background="@mipmap/ic_launcher" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next"
+        android:text="다음"
+        android:layout_alignTop="@+id/go_home"
+        android:layout_toRightOf="@+id/go_home"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홈으로"
+        android:id="@+id/go_home"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/add_game"
+        android:layout_toEndOf="@+id/add_game" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아싸게임 추가"
+        android:id="@+id/add_game"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/option"
+        android:layout_toEndOf="@+id/option" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option"
+        android:text="옵션"
+        android:layout_alignTop="@+id/add_game" />
+</RelativeLayout>

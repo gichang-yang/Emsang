@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:background="@mipmap/br31"
+        android:baselineAlignBottom="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="베스킨라빈스"
+        android:id="@+id/textView"
+        android:layout_marginTop="53dp"
+        android:textSize="50dp"
+        android:background="@android:drawable/picture_frame"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="false" />
+
+    <android.support.v7.widget.ButtonBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:drawableBottom="@android:drawable/ic_menu_revert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="홈으로"
+            android:id="@+id/go_home"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.ActionBar.TabBar"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/textView"
+            android:layout_toStartOf="@+id/textView" />
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="헬파티게임\n추가"
+            android:id="@+id/add_game"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/option"
+            android:layout_toEndOf="@+id/option"
+            android:layout_weight="1"
+            android:textSize="11dp" />
+
+        <Button
+            android:drawableBottom="@android:drawable/ic_menu_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/option"
+            android:text="옵션걸기"
+            android:layout_alignTop="@+id/add_game"
+            android:layout_weight="1" />
+
+        <Button
+            android:drawableBottom="@android:drawable/ic_media_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next"
+            android:text="다음"
+            android:layout_alignTop="@+id/go_home"
+            android:layout_toRightOf="@+id/go_home"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1" />
+    </android.support.v7.widget.ButtonBarLayout>
+
+
+</RelativeLayout>

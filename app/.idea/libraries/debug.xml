@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_b805ae9ef68e8d307730c207e83c53619c93348b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_099a42550be607044bbeac93993570c48a7ec6d1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_0d50f8852607c54e0f0950c845dc217d68ca5474.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_5c28771cbc9405893f794253889a349ac6af823f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_837739c7711cea45603810bff80f836df3fe0bcd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_4c49fd297d74b10c5ec6f51a4ea9f107fe6b0a50.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_0612e4501d05b071aaa9a4f5082944ab0bafe166.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_156fecf6fd85ae5f7ba04949cb7b24e2ce1a4860.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_518f97ab8b8f1cbdc25482628a1b112fdad7bc6a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_a604ae1ac3b65b21798eb07c0fc10ff8a689e76b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/debug_38251f481baa765a6f945384cb5ba009dbea257a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_a804858a4f1025f105ff6a36ebfd5119233ae5d9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_03969daaad8412af4d51794e0a5e41e31565fe18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_7d344667374e603cfa739cdce94f1c7d57258a72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_d77275168a1b5b27ded851521dea2f9ccb8a9c76.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_295ec18b56d69682a8de2a09008fc2093636edfb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_cad13ceccaa14efde50318093b26df62f607c968.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_5c01f38e80bea62b1990744b090db355ccf264c9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes_60aa3bc336e32fe7988d93779d377bc4e93013de.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
